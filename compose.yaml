@@ -1,0 +1,10 @@
+﻿services:
+  transactionsapp:
+    image: transactionsapp
+    build:
+      context: .
+      dockerfile: TransactionsApp/Dockerfile
+    ports:
+      - "9090:80"
+    volumes:
+      - ./TransactionsApp/data:/app/data

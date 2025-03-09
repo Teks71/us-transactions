@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{DC102D84-CC7A-4184-B333-326986A1AEA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionsApp", "TransactionsApp\TransactionsApp.csproj", "{B0A1C311-A9B7-4F09-8602-280E8207DF73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0686BDE2-1C08-4B47-9480-1DFC58C3043D}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC102D84-CC7A-4184-B333-326986A1AEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC102D84-CC7A-4184-B333-326986A1AEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC102D84-CC7A-4184-B333-326986A1AEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC102D84-CC7A-4184-B333-326986A1AEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A1C311-A9B7-4F09-8602-280E8207DF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A1C311-A9B7-4F09-8602-280E8207DF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A1C311-A9B7-4F09-8602-280E8207DF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A1C311-A9B7-4F09-8602-280E8207DF73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
